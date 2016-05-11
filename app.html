@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Watchlist</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+<h1>Watchlist</h1>
+<h3>List all your seen movies</h3>
+<hr />
+<input type="text" id="movieName" placeholder="Enter the movie you have seen" onkeypress="return saveToList(event)" />
+<h4>Watched movies</h4>
+<ol id="seenmovies">
+</ol>
+<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
